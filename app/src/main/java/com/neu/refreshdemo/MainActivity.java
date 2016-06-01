@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         mSwipeRefreshLayout.setColorSchemeColors(Color.BLUE,Color.GREEN);
 
         mSwipeRefreshLayout.setOnRefreshListener(new NeuSwipeRefreshLayout.OnRefreshListener() {
-
             @Override
             public void onRefresh(NeuSwipeRefreshLayoutDirection direction) {
                 if (direction == NeuSwipeRefreshLayoutDirection.TOP) {
