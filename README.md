@@ -1,6 +1,8 @@
-# refresh
+# Google SwipeRefreshLayout增强版
 
-Google SwipeRefreshLayout增强版，支持上拉下拉加载，源码来源于网络(忘了源地址)，代码做了细节修改
+Google SwipeRefreshLayout增强版，支持上拉下拉加载
+
+源地址 https://github.com/neuyu/refresh，代码做了细节修改
 
 源readme:
 
@@ -35,7 +37,7 @@ Step 2. Add the dependency
 	        compile 'com.github.Blankeer:XSwipeRefreshLayout:1.0.0'
 	}
 
-`java
+```java
 mSwipeRefreshLayout.setDirection(NeuSwipeRefreshLayoutDirection.BOTH);
 
 mSwipeRefreshLayout.setOnRefreshListener(new NeuSwipeRefreshLayout.OnRefreshListener() {
@@ -48,6 +50,6 @@ mSwipeRefreshLayout.setOnRefreshListener(new NeuSwipeRefreshLayout.OnRefreshList
                 }
             }
         });
-`
+```
 
 mSwipeRefreshLayout.autoRefresh();//自动加载
