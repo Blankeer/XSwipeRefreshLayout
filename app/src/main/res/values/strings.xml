@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RefreshDemo</string>
+    <string name="title_activity_none">NoneActivity</string>
+</resources>
